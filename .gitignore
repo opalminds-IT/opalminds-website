@@ -21,3 +21,10 @@ assets/OPALMINDS IT SOLUTIONS PRIVATE LIMITED Line of code.txt
 brochure-atc.html
 brochure-atc-v2.html
 maniflo-brochure-content.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
