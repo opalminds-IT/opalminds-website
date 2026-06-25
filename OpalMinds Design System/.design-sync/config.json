@@ -1,0 +1,9 @@
+{
+  "projectId": "db77245d-d585-4418-9c4c-8df98b7ba367",
+  "shape": "spa",
+  "pkg": {
+    "name": "opalminds-design-system",
+    "version": "1.0.0"
+  },
+  "readmeHeader": ".design-sync/conventions.md"
+}
