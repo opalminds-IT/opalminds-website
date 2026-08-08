@@ -2144,7 +2144,7 @@
         { ts: '09:14:04', b: 'done', msg: 'PackingList_PL-20240612.pdf extracted (312 KB)' },
         { ts: '09:14:04', b: 'done', msg: 'AWB_DHL-481920.pdf extracted (198 KB)' },
         { ts: '09:14:05', b: 'proc', msg: 'OCR Extraction Agent → running structured extraction…' },
-        { ts: '09:14:09', b: 'done', msg: 'Invoice fields extracted — 47 line items, SGD 184,320' },
+        { ts: '09:14:09', b: 'done', msg: 'Invoice fields extracted — 47 line items, USD 138,240' },
         { ts: '09:14:10', b: 'proc', msg: 'Document Linker Agent → linking invoice → packing list → AWB…' },
         { ts: '09:14:11', b: 'done', msg: '3-document shipment graph built — all quantities reconciled' },
         { ts: '09:14:11', b: 'proc', msg: 'Field Completeness Agent → checking required declaration fields…' },
@@ -2156,13 +2156,13 @@
         { ts: '09:14:18', b: 'proc', msg: 'HS Conflict Detector → checking cross-document HS mismatches…' },
         { ts: '09:14:19', b: 'done', msg: 'No conflicts — all 47 items consistent across documents' },
         { ts: '09:14:19', b: 'proc', msg: 'Value Validator → checking declared value vs invoice…' },
-        { ts: '09:14:20', b: 'done', msg: 'Value match confirmed — SGD 184,320 across all documents' },
+        { ts: '09:14:20', b: 'done', msg: 'Value match confirmed — USD 138,240 across all documents' },
         { ts: '09:14:20', b: 'proc', msg: 'Sanctions Screener → screening consignee and shipper…' },
         { ts: '09:14:21', b: 'done', msg: 'No sanctions matches — both parties cleared' },
-        { ts: '09:14:21', b: 'proc', msg: 'Declaration Assembler → building TradeNet declaration…' },
-        { ts: '09:14:23', b: 'done', msg: 'Declaration assembled — 47 line items, 3 HS chapters, SGD 184,320' },
-        { ts: '09:14:23', b: 'proc', msg: 'Submission Agent → submitting to Singapore Customs TradeNet…' },
-        { ts: '09:14:26', b: 'done', msg: 'Submitted — Ref: TN-2024-0612-4821. Status: Pending approval.' },
+        { ts: '09:14:21', b: 'proc', msg: 'Declaration Assembler → building customs declaration…' },
+        { ts: '09:14:23', b: 'done', msg: 'Declaration assembled — 47 line items, 3 HS chapters, USD 138,240' },
+        { ts: '09:14:23', b: 'proc', msg: 'Submission Agent → submitting to customs portal…' },
+        { ts: '09:14:26', b: 'done', msg: 'Submitted — Ref: CD-2024-0612-4821. Status: Pending approval.' },
       ];
 
       var DELAYS = [0,380,860,1040,1210,1680,2300,2820,3340,3900,4480,4950,5900,6580,7140,7780,8360,8900,9520,10100,10680,11200,12000,12580,13150];
