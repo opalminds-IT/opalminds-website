@@ -1367,6 +1367,19 @@ a.career-company:focus-visible {
   text-underline-offset: 3px;
 }
 
+.inline-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  color: var(--blue);
+}
+
 .career-item--current .career-company {
   background: var(--gradient);
   -webkit-background-clip: text;
