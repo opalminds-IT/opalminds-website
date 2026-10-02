@@ -1354,6 +1354,19 @@ h1, h2, h3, h4 {
   letter-spacing: -0.01em;
 }
 
+a.career-company {
+  text-decoration: none;
+  align-self: flex-start;
+  transition: color 0.2s;
+}
+
+a.career-company:hover,
+a.career-company:focus-visible {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .career-item--current .career-company {
   background: var(--gradient);
   -webkit-background-clip: text;
